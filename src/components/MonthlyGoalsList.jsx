@@ -1,4 +1,3 @@
-import { useState } from "react";
 import MonthlyGoalsItem from "./MonthlyGoalsItem"
 
 const MonthlyGoalsList = ({monthlyGoals, onDelete, onEdit}) => {
