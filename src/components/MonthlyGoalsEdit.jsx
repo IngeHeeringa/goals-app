@@ -17,6 +17,7 @@ const MonthlyGoalsEdit = ({monthlyGoal, onSubmit}) => {
         <div>
             <form onSubmit={handleEditSubmit}>
                 <input onChange={handleChange} type="text" value={editableMonthlyGoal}/>
+                <button type="submit">save</button>
             </form>
         </div>
     )
