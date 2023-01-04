@@ -1,6 +1,5 @@
 import { useState } from "react";
 import MonthlyGoalsEdit from "./MonthlyGoalsEdit";
-import WeeklyGoalsList from "./WeeklyGoalsList";
 
 const MonthlyGoalsItem = ({ monthlyGoal, onDelete, onEdit }) => {
   const [editable, setEditable] = useState(false);
