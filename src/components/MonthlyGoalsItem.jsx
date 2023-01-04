@@ -27,13 +27,13 @@ const MonthlyGoalsItem = ({ monthlyGoal, onDelete, onEdit }) => {
   }
 
   return (
-    <div>
+    <article>
       <div>
         <div>{content}</div>
       </div>
       <button onClick={handleClickDelete}>Delete goal</button>
       <button onClick={handleEditState}>Edit goal</button>
-    </div>
+    </article>
   );
 };
 
